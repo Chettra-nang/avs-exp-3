@@ -1,0 +1,38 @@
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+avs-venv/
+
+# Checkpoints / models
+models/
+*.pt
+*.pth
+*.ckpt
+
+# Data, logs, videos (remove entries if you want them in git)
+data/
+logs/
+videos/
+marl_vla_tensorboard/
+ppo_vla_thesis_logs/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
